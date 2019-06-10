@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "plugin:react-app/recommended"
+    ],
+    "rules": {
+        "react-app/react/react-in-jsx-scope": [
+            "warn"
+        ]
+    }
+}

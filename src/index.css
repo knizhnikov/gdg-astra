@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import '~font-awesome/css/font-awesome.css';
+
+body {
+  margin: 0;
+  font-family: 'Google Sans', 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #555;
+}
+
+* {
+  font-family: inherit !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-muted {
+  color: #888;
+}
+
+.m-1 {
+  margin: .5rem !important;
+}
+
+.m-r-1 {
+  margin-right: .5rem !important;
+}
+
+.clipped {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+i.fa {
+  font-family: FontAwesome !important;
+}
