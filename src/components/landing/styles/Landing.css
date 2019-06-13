@@ -15,17 +15,35 @@ img.logo {
     background-position-y: 100%;
 }
 
-@media(min-width: 760px){
-    .about-us-image {
-        margin: 2rem 0 0 2rem;
-    }
+.thumb-image {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+    margin-right: -1rem;
+    background-size: cover;
+    border: .1rem solid #fff;
+}
+
+.numbers {
+    margin-bottom: 1rem;
+}
+
+.numbers .title span {
+    font-size: 1.2rem;
+    display: block;
+}
+
+.numbers .value {
+    font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
     margin: 1em 0 !important;
 }
 
-.about-us {
+#about-us {
     background-color: #fff;
     padding: 0 !important;
     background-image: url('../../../assets/img/about-us.jpg');
@@ -34,11 +52,11 @@ h2 {
     color: #fff;
 }
 
-.about-us a {
+#about-us a {
     color: #fff;
 }
 
-.about-us > div {
+#about-us > div {
     padding: 2rem 1rem 3rem 1rem;
     background-color: rgba(0,0,0,0.6);
 }
@@ -64,7 +82,7 @@ p svg {
     bottom: -4px;
 }
 
-.team {
+#team {
     background-color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -87,4 +105,24 @@ p svg {
 
 .team-member .photo {
     float: left;
+}
+
+#contacts {
+    padding: 0 !important;
+}
+
+#contacts > div {
+    padding: 1rem;
+}
+
+.footer {
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+    color: #888;
+}
+
+.footer .media {
+    font-size: 1.2rem;
+    margin: .5rem;
+    color: #888;
 }

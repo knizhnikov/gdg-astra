@@ -68,7 +68,7 @@ function Team() {
     ];
 
     return (
-        <Container className="team" >
+        <Container id="team" >
             <Typography variant="h6" component="h2">Команда</Typography>
             <Grid
                 container
@@ -86,9 +86,11 @@ function Team() {
                             {m.company}
                             <p>
                                 {m.socials.map((s, j) => (
-                                    <Fab key={j} color="secondary" size="small" className="m-r-1">
-                                        <i className={s.icon}></i>
-                                    </Fab>
+                                    <a key={j} href={s.href} target="_blank" rel="noreferer noopener">
+                                        <Fab key={j} color="secondary" size="small" className="m-r-1">
+                                            <i className={s.icon}></i>
+                                        </Fab>
+                                    </a>
                                 ))}
                             </p>
                         </div>

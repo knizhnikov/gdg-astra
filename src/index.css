@@ -48,3 +48,15 @@ img {
 i.fa {
   font-family: FontAwesome !important;
 }
+
+a {
+  text-decoration:none;
+}
+
+a:visited {
+  text-decoration:none;
+}
+
+a[href^="#"] {
+  color: inherit;
+}

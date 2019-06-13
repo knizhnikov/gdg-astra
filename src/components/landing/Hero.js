@@ -29,8 +29,8 @@ const Hero = () => {
                         #GDGAstra #GDG #GDGAstrakhan #WTM
                     </Typography>
                     <p>
-                        <Button className="m-r-1" color="primary" variant="contained">Присоединиться</Button>
-                        <Button>Подробнее</Button>
+                        <a href="https://www.meetup.com/GDG-Astrakhan/?action=join" target="_blank"><Button className="m-r-1" color="primary" variant="contained">Присоединиться</Button></a>
+                        <a href="#about-us"><Button>Подробнее</Button></a>
                     </p>
                 </Grid>
             </Grid>

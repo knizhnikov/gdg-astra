@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AppBar, Button, Toolbar, IconButton, Typography, BottomNavigation, BottomNavigationAction, CssBaseline, Slide, Hidden } from '@material-ui/core';
+import { AppBar, Button, Toolbar, Fab, Typography, BottomNavigation, BottomNavigationAction, CssBaseline, Slide, Hidden } from '@material-ui/core';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 
-import { Menu, Sms, Group, Star, Home } from '@material-ui/icons';
-
+import { PersonAdd, Sms, Group, Star, Home } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
+
+import FloatingFab from './components/FloatingFab';
 
 import './App.css';
 
@@ -42,27 +43,29 @@ function App(props) {
               GDG Astrakhan
             </Typography>
             <Hidden smDown>
-              <Button color="inherit">О нас</Button>
-              <Button color="inherit">Мероприятия</Button>
-              <Button color="inherit">Команда</Button>
-              <Button color="inherit">Контакты</Button>
-              <Button color="primary" variant="outlined">Присоединиться</Button>
+              <a href="#about-us"><Button color="inherit">О нас</Button></a>
+              <a href="#events"><Button color="inherit">Мероприятия</Button></a>
+              <a href="#team"><Button color="inherit">Команда</Button></a>
+              <a href="#contacts"><Button color="inherit">Контакты</Button></a>
+              <a href="https://www.meetup.com/GDG-Astrakhan/?action=join" target="_blank"><Button color="primary" variant="outlined">Присоединиться</Button></a>
+            </Hidden>
+            <Hidden mdUp>
+              <a href="https://www.meetup.com/GDG-Astrakhan/?action=join" target="_blank"><Button color="primary" size="small" variant="outlined">Присоединиться</Button></a>
             </Hidden>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
       <Landing />
       <br /><br /><br /><br />
-
       <Hidden mdUp>
         <BottomNavigation
           showLabels
           className={classes.rootBottom}
         >
-          <BottomNavigationAction label="О нас" icon={<Home />} />
-          <BottomNavigationAction label="Мероприятия" icon={<Star />} />
-          <BottomNavigationAction label="Команда" icon={<Group />} />
-          <BottomNavigationAction label="Контакты" icon={<Sms />} />
+          <BottomNavigationAction href="#about-us" label="О нас" icon={<Home />} />
+          <BottomNavigationAction href="#events" label="Мероприятия" icon={<Star />} />
+          <BottomNavigationAction href="#team" label="Команда" icon={<Group />} />
+          <BottomNavigationAction href="#contacts" label="Контакты" icon={<Sms />} />
         </BottomNavigation>
       </Hidden>
     </div>
