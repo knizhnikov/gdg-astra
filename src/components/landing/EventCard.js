@@ -33,12 +33,12 @@ function EventCard(props) {
                         {props.name}
                     </Typography>
                     <Typography component="p">
-                        <LocationOn fontSize="small" /> {props.venue.name}
+                        <LocationOn fontSize="small" /> {props.venue != null ? props.venue.name : ''}
                     </Typography>
                     <Typography component="p">
                         <DateRange fontSize="small" /> {moment(props.local_date).format('LL')}, {props.local_time}
                     </Typography>
-                    <Typography style={{ maxHeight: '8rem', paddingTop: '.5rem' }} className="clipped" variant="body2" color="textSecondary" component="p">{props.description.substr(0, 150).replace(/<\/?[^>]+(>|$)/g, "")}... <a href={props.link} target="_blank">см. далее</a> </Typography>
+                    <Typography style={{ maxHeight: '8rem', paddingTop: '.5rem' }} className="clipped" variant="body2" color="textSecondary" component="p">{props.description != null ? props.description.substr(0, 150).replace(/<\/?[^>]+(>|$)/g, "") : ''}... <a href={props.link} target="_blank">см. далее</a> </Typography>
                 </CardContent>
             </CardActionArea>
         </Card>
