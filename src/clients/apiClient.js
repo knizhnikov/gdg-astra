@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class ApiClient {
     
-    baseUrl = 'http://localhost:4200';
+    apiHost = 'https://knizhnikov.com/gdg-astra-api';
 
     async GetEvents() {
         const url = `${this.baseUrl}/gdg-astra-api/meetup/events`;
@@ -12,7 +12,7 @@ class ApiClient {
     }
 
     async GetMembers() {
-        const url = `${this.baseUrl}/gdg-astra-api/meetup/members`;
+        const url = `${this.apiHost}/gdg-astra-api/meetup/members`;
 
         const response = await axios.get(url);
         return response.data;
