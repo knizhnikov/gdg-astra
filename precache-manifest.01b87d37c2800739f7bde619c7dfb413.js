@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd6bd8e79fdd74c523d739c6e0b24b57",
+    "revision": "03209cbce61700bdaa8c4873215f25a1",
     "url": "/gdg-astra/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gdg-astra/static/css/2.f1cae5ad.chunk.css"
   },
   {
-    "revision": "f4eae85439f204286224",
+    "revision": "d02dab9030fc6e2f2d0f",
     "url": "/gdg-astra/static/css/main.91d1a2c2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gdg-astra/static/js/2.b7a83d44.chunk.js"
   },
   {
-    "revision": "f4eae85439f204286224",
-    "url": "/gdg-astra/static/js/main.346ebce2.chunk.js"
+    "revision": "d02dab9030fc6e2f2d0f",
+    "url": "/gdg-astra/static/js/main.5863f108.chunk.js"
   },
   {
     "revision": "5a4c26db3bcdcc7e7e23",
