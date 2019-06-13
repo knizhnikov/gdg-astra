@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class ApiClient {
     
-    apiHost = 'https://knizhnikov.com/gdg-astra-api';
+    apiHost = 'https://knizhnikov.com';
 
     async GetEvents() {
         const url = `${this.baseUrl}/gdg-astra-api/meetup/events`;
