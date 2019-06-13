@@ -5,7 +5,7 @@ class ApiClient {
     apiHost = 'https://knizhnikov.com';
 
     async GetEvents() {
-        const url = `${this.baseUrl}/gdg-astra-api/meetup/events`;
+        const url = `${this.apiHost}/gdg-astra-api/meetup/events`;
 
         const response = await axios.get(url);
         return response.data;
