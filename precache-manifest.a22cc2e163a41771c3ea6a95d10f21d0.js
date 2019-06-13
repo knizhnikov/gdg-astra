@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03209cbce61700bdaa8c4873215f25a1",
+    "revision": "7656d6e9214093a170110fd1d4981004",
     "url": "/gdg-astra/index.html"
   },
   {
