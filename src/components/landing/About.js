@@ -24,7 +24,7 @@ function About(props) {
                         <Typography>
                             GDG Astrakhan является независимой группой; любые действия и мнения
                             в рамках этой группы не могут быть связаны с корпорацией Google.
-                                    Чтобы узнать больше о программе GDG, посетите <a href="https://developers.google.com/groups/">https://developers.google.com/groups/</a>
+                                    Чтобы узнать больше о программе GDG, посетите <a href="https://developers.google.com/groups/" target="_blank">https://developers.google.com/groups/</a>
                         </Typography>
                     </Grid>
                     <Grid item xs={12}  md={6}>
