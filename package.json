@@ -2,7 +2,7 @@
   "name": "gdg-astra",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://knizhnikov.github.io/gdg-astra",
+  "homepage": "https://gdgastra.ru",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.0.1",
