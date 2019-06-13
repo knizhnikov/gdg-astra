@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c3e50813de03dee2216bc682b98c9dc",
+    "revision": "950bb9a104f513bc30d18de810cfd879",
     "url": "/gdg-astra/index.html"
   },
   {
-    "revision": "46dda5549773e96b6a74",
+    "revision": "053579f0eaec36d5fdaf",
     "url": "/gdg-astra/static/css/2.f1cae5ad.chunk.css"
   },
   {
-    "revision": "180e1ddfcf9ec48b4f05",
-    "url": "/gdg-astra/static/css/main.e9eaaef1.chunk.css"
+    "revision": "97509e4442264fbd11df",
+    "url": "/gdg-astra/static/css/main.91d1a2c2.chunk.css"
   },
   {
-    "revision": "46dda5549773e96b6a74",
-    "url": "/gdg-astra/static/js/2.69fbd600.chunk.js"
+    "revision": "053579f0eaec36d5fdaf",
+    "url": "/gdg-astra/static/js/2.b7a83d44.chunk.js"
   },
   {
-    "revision": "180e1ddfcf9ec48b4f05",
-    "url": "/gdg-astra/static/js/main.f21c9542.chunk.js"
+    "revision": "97509e4442264fbd11df",
+    "url": "/gdg-astra/static/js/main.4af53f22.chunk.js"
   },
   {
     "revision": "5a4c26db3bcdcc7e7e23",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gdg-astra/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "7ae266c96744678b8e4eeb2befaedbc9",
-    "url": "/gdg-astra/static/media/logo.7ae266c9.png"
+    "revision": "4e7a8cbfff15b69b34322d83d179ae63",
+    "url": "/gdg-astra/static/media/logo.4e7a8cbf.png"
   },
   {
     "revision": "7e79bee500a0254745d4e0982b9afb8d",
