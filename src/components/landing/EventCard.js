@@ -25,7 +25,7 @@ function EventCard(props) {
                     component="img"
                     alt={props.name}
                     height="140"
-                    image={props.featured_photo.photo_link}
+                    image={props.featured_photo!=null?props.featured_photo.photo_link:''}
                     title={props.name}
                 />
                 <CardContent>
